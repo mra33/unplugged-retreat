@@ -146,11 +146,11 @@ p {
 }
  
 img {
- 	
+ 	width: 100%;
 }
  
 figure {
- 	
+ 	margin 0;
 }
  
 address {
@@ -270,9 +270,16 @@ header {
 	padding: 15px 0;
 }
 
-header .content-wrapper {
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 
 }
+
 
 /*------HERO AREA------*/
 
@@ -280,6 +287,8 @@ header .content-wrapper {
 	display: flex;
 	justify-content: center;
 	flex-flow: column nowrap;
+	background: url('../img/hero.jpg') center no-repeat #333;
+	background-size: cover;
 }
 
 .hero-area h1 {
@@ -306,6 +315,8 @@ aside {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
+	background: url('../img/features.jpg') center no-repeat #333;
+	background-size: cover;
 }
 
 .features h2 {
@@ -335,6 +346,14 @@ aside {
 
 .reviews {
 	background-color: #2a423a;
+}
+
+.reviews figure {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 .reviews .content-wrapper {
 	display: flex;
@@ -573,9 +592,15 @@ input[type=button] {
 		   justify-content: space-between;
        }
  
+   	header figure {
+   	    width: 30%;
+   }	
+ 
+ 
        header nav {
            width: 20%
        }
+ 
  
        header nav ul {
 		   justify-content: space-between;
@@ -621,6 +646,10 @@ input[type=button] {
  		  display: flex;
 		  justify-content: space-between;
        }
+	   
+   	.reviews figure {
+   		width: 42%;
+   	}
     
        .reviews article div {
            width: 49%;
@@ -684,8 +713,9 @@ input[type=button] {
 @media screen and (min-width: 1200px) {
 
 /*Desktop styles here*/
-	
-	
+	header figure {
+	    width: 25%;
+}	
 	.content-wrapper {
 		max-width: 960px;
 	}
@@ -726,7 +756,10 @@ input[type=button] {
     .reviews article div {
 		 width: 42%;
     }
- 
+	
+	.reviews figure {
+		width: 40%;
+	}
     
 /* ==========================================================================
 	   About Page
@@ -753,18 +786,6 @@ input[type=button] {
 	    .faq-content {
 	        flex-basis: 50$;
 	    }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 
