@@ -244,6 +244,15 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+footer i {
+	height: 20px;
+	width: 20px;
 }
 
 footer .contact {
@@ -736,6 +745,15 @@ input[type=button] {
        footer .copyright {
            width: 100%;
        }
+	   
+	   footer .social-icons p {
+		   margin-left: 35px;
+		   
+	   }
+	   
+	   footer .social-icons {
+		   margin-right: 30px;
+	   }
 	   /*-------------------FAQ PAGE--------------*/
    
 	   .faq-content {
