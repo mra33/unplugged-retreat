@@ -952,8 +952,8 @@ input[type=button] {
 	   
 	   .faq h4,
 	   .faq p {
-		   font-size: .875em;
-		   line-height: 1.125;
+		   font-size: 1.125em;
+		   line-height: 1.333;
 	   }
 	   
   /* ==========================================================================
@@ -1090,15 +1090,33 @@ input[type=button] {
 	   	padding-bottom: 37.5%;
 	}
  
-	    .contact-section .content-wrapper h2 {
+	    .contact-section .content-wrapper {
 	        margin-bottom: 100px;
+			
+			
 	    	
 		}
 		
+		
 		.contact-content h3 {
 			font-size: 1.875em;
+		
+			
 		}
 		
+		
+		.contact-content div{
+			width: 45%;
+		}
+		
+		footer .content-wrapper {
+			width: 100%;
+		}
+	
+		footer .contact {
+			padding: 5% 0;
+			width: 35%;
+		}
  
  
 /* ==========================================================================
